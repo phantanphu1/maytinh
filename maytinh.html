@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="maytinh.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="top">
+            <div class="logo">
+                <p>NHÀ HÀNG TÂY HỒ</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">TRANG CHỦ</a></li>
+                    <li><a href="">GIỚI THIỆU</a></li>
+                    <li><a href="">HÌNH ẢNH</a></li>
+                    <li><a href="">BẢNG GIÁ</a></li>
+                    <li><a href="">ĐĂNG KÝ</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide_nho">
+                <img src="./img/anh1.jpg" alt="" id="anh_slide">
+            </div>
+            <div class="chon">
+                <button id="click_chon1">
+                    <</button> <button id="click_chon2">•
+                </button>
+                <button id="click_chon3">></button>
+            </div>
+
+        </div>
+        <div class="gioi_thieu">
+            <div class="chung">
+                <a href="">Thông Tin Chung</a>
+            </div>
+            <div class="left">
+                <ul>
+                    <li><a href="">GIỚI THIỆU</a></li>
+                    <li><a href="">TẦM NHÌN</a></li>
+                    <li><a href="">BÁO CHÍ</a></li>
+                    <li><a href="">GIẢI THƯỞNG</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">THỰC ĐƠN</a></li>
+                    <li><a href="">NƯỚC UỐNG</a></li>
+                    <li><a href="">TRÁNG MIỆNG</a></li>
+                    <li><a href="">ĐÁNH GIÁ</a></li>
+
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        var slide = document.getElementById("anh_slide");
+        var hinh1 = document.getElementById("click_chon1");
+        var hinh2 = document.getElementById("click_chon2");
+
+        var hinh3 = document.getElementById("click_chon3");
+        hinh1.onclick = function () {
+            slide.src = "./imj/anh1.jpg";
+        }
+        hinh2.onclick = function () {
+            slide.src = "./imj/anh2.jpg";
+        }
+        hinh3.onclick = function () {
+            slide.src = "./imj/anh3.jpg";
+        }
+    </script>
+    <script src="maytinh.js"></script>
+</body>
+
+</html>

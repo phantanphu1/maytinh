@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 3, 39);
+}
+
+.logo{
+    /* height: 10px; */
+    margin-left: 20px;
+    width: 12%;
+    margin: 10px;
+   
+  }
+  .logo a { 
+    text-decoration: none;
+    color: rgb(0, 139, 127);
+    }
+  .top{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(238, 186, 199);
+    display: flex;
+    position: fixed;
+    position: relative;
+    /* position: absolute; */
+  }
+  
+  .menu a {
+    text-decoration: none;
+  }
+  .menu ul{
+    list-style-type: none;
+    margin-top: 8px;
+  
+  }
+  .menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+    padding: 15px;
+  }
+  .search{
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 25%;
+    text-align: right;
+  }
+.search input{
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    /* margin-top: 1px; */
+  }
+  .slide{
+      /* background-color: blue; */
+    display: flex;
+    position: relative;
+    width: 50%;
+    margin: 0px 2%;
+
+}
+.slide_nho{
+    width: 100%;
+
+}
+.slide_nho img{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+.chon{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    /* margin: 0 2%; */
+}
+.chon button{
+    border-radius: 30%;
+
+    padding: 2px 1px;
+    margin: 250px 10px;
+    cursor: pointer;
+}
+.chung{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 930px;
+    width: 2200px;
+    
+}
+.chung a{
+    text-decoration: none;
+    color: rgb(161, 70, 9);
+}
+.gioi_thieu{
+    margin-top: 35px;
+    position: relative;
+    width: 50%;
+    /* height: 500px; */
+    background-color: blue;
+    /* margin-left: 750px; */
+}
+.left{
+    position: absolute;
+
+    /* background-color: aqua; */
+   margin-left: 850px;
+    width: 200px;
+    
+}
+.left a {
+    
+    text-decoration: none;
+  }
+  .left ul{
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .left ul li{
+    display: inline-block;
+    margin: 20 20px;
+    padding: 15px;
+  }
+  .right{
+    position: absolute;
+
+    /* background-color: aqua; */
+   margin-left: 1050px;
+    width: 150px;
+    
+}
+.right a {
+    text-decoration: none;
+  }
+  .right ul{
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .right ul li{
+    display: inline-block;
+    margin: 20 20px;
+    padding: 15px;
+  }
+  
